@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4FA83BFB286B43D000BCE662 /* legatoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA83BFA286B43D000BCE662 /* legatoApp.swift */; };
-		4FA83BFD286B43D000BCE662 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA83BFC286B43D000BCE662 /* ContentView.swift */; };
+		4F1481A3286C9A3D00C2E27A /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1481A2286C9A3D00C2E27A /* Menu.swift */; };
+		4F1481A7286CACB200C2E27A /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1481A6286CACB200C2E27A /* Tracker.swift */; };
+		4F1481AA286CBC0800C2E27A /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1481A9286CBC0800C2E27A /* Light.swift */; };
+		4FA83BFB286B43D000BCE662 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA83BFA286B43D000BCE662 /* App.swift */; };
 		4FA83BFF286B43D000BCE662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA83BFE286B43D000BCE662 /* Assets.xcassets */; };
 		4FA83C02286B43D000BCE662 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA83C01286B43D000BCE662 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4FA83BF7286B43CF00BCE662 /* legato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = legato.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FA83BFA286B43D000BCE662 /* legatoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = legatoApp.swift; sourceTree = "<group>"; };
-		4FA83BFC286B43D000BCE662 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4F1481A2286C9A3D00C2E27A /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		4F1481A6286CACB200C2E27A /* Tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracker.swift; sourceTree = "<group>"; };
+		4F1481A8286CBB3C00C2E27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4F1481A9286CBC0800C2E27A /* Light.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
+		4FA83BF7286B43CF00BCE662 /* Ragnar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ragnar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA83BFA286B43D000BCE662 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		4FA83BFE286B43D000BCE662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FA83C01286B43D000BCE662 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4FA83C03286B43D000BCE662 /* legato.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = legato.entitlements; sourceTree = "<group>"; };
@@ -44,7 +49,7 @@
 		4FA83BF8286B43CF00BCE662 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4FA83BF7286B43CF00BCE662 /* legato.app */,
+				4FA83BF7286B43CF00BCE662 /* Ragnar.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,8 +57,11 @@
 		4FA83BF9286B43CF00BCE662 /* legato */ = {
 			isa = PBXGroup;
 			children = (
-				4FA83BFA286B43D000BCE662 /* legatoApp.swift */,
-				4FA83BFC286B43D000BCE662 /* ContentView.swift */,
+				4F1481A8286CBB3C00C2E27A /* Info.plist */,
+				4FA83BFA286B43D000BCE662 /* App.swift */,
+				4F1481A2286C9A3D00C2E27A /* Menu.swift */,
+				4F1481A6286CACB200C2E27A /* Tracker.swift */,
+				4F1481A9286CBC0800C2E27A /* Light.swift */,
 				4FA83BFE286B43D000BCE662 /* Assets.xcassets */,
 				4FA83C03286B43D000BCE662 /* legato.entitlements */,
 				4FA83C00286B43D000BCE662 /* Preview Content */,
@@ -86,7 +94,7 @@
 			);
 			name = legato;
 			productName = legato;
-			productReference = 4FA83BF7286B43CF00BCE662 /* legato.app */;
+			productReference = 4FA83BF7286B43CF00BCE662 /* Ragnar.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -139,8 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FA83BFD286B43D000BCE662 /* ContentView.swift in Sources */,
-				4FA83BFB286B43D000BCE662 /* legatoApp.swift in Sources */,
+				4F1481A7286CACB200C2E27A /* Tracker.swift in Sources */,
+				4F1481A3286C9A3D00C2E27A /* Menu.swift in Sources */,
+				4F1481AA286CBC0800C2E27A /* Light.swift in Sources */,
+				4FA83BFB286B43D000BCE662 /* App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +284,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = legato/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Ragnar;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Legato uses your network to find your Elgato™ lights";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -282,7 +294,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = elliottkember.legato;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Ragnar;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -302,6 +314,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = legato/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Ragnar;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Legato uses your network to find your Elgato™ lights";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,7 +324,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = elliottkember.legato;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Ragnar;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
