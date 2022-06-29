@@ -23,9 +23,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     AppDelegate.instance = self
     self.tracker = LightTracker()
     tracker!.start()
-    statusBarItem.button?.image = NSImage(named: NSImage.Name("menubar"))
-    statusBarItem.button?.image!.size.width = 24
-    statusBarItem.button?.image!.size.height = 24
+    let image = NSImage(named: NSImage.Name("menu"))
+    image!.isTemplate = true
+    statusBarItem.button?.image = image
+    statusBarItem.button?.image!.size.width = 18
+    statusBarItem.button?.image!.size.height = 18
     statusBarItem.button?.imagePosition = .imageLeading
     statusBarItem.menu = menu.build(lights: tracker!.lights)
   }

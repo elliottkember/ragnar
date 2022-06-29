@@ -12,6 +12,7 @@
 		4F1481AA286CBC0800C2E27A /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1481A9286CBC0800C2E27A /* Light.swift */; };
 		4FA83BFB286B43D000BCE662 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA83BFA286B43D000BCE662 /* App.swift */; };
 		4FA83BFF286B43D000BCE662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA83BFE286B43D000BCE662 /* Assets.xcassets */; };
+		4FFDE50C286CC01E00EE7A37 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFDE50B286CC01E00EE7A37 /* menu.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		4FA83BFA286B43D000BCE662 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		4FA83BFE286B43D000BCE662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FA83C03286B43D000BCE662 /* legato.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = legato.entitlements; sourceTree = "<group>"; };
+		4FFDE50B286CC01E00EE7A37 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				4F1481A6286CACB200C2E27A /* Tracker.swift */,
 				4F1481A9286CBC0800C2E27A /* Light.swift */,
 				4FA83BFE286B43D000BCE662 /* Assets.xcassets */,
+				4FFDE50B286CC01E00EE7A37 /* menu.png */,
 				4FA83C03286B43D000BCE662 /* legato.entitlements */,
 			);
 			path = legato;
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FFDE50C286CC01E00EE7A37 /* menu.png in Resources */,
 				4FA83BFF286B43D000BCE662 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
