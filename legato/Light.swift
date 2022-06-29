@@ -21,7 +21,7 @@ class Light: Identifiable, CustomStringConvertible {
 
     let json: [String: Any] = [
       "numberOfLights": "1",
-      "lights": [["on": isOn ? 1 : 0, "brightness": 40, "temperature": 500]],
+      "lights": [["on": isOn ? 1 : 0, "brightness": 120, "temperature": 300]],
     ]
 
     request.httpBody = try? JSONSerialization.data(withJSONObject: json)
